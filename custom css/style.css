@@ -1,0 +1,81 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.h-landing {
+    font-size: 4rem;
+    padding: 12px;
+    font-family: 'Baloo Bhai', serif;
+}
+.bg-blue{
+    background-color: #3056D3 !important;
+}
+
+/* Home section */
+#home::before {
+
+    content: "";
+    background: url(../img/Landing.webp) center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 584px;
+    margin-top: 50px;
+
+
+
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 3px 4px 4px grey;
+}
+
+#home p {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mb-2{
+
+    margin-bottom: 0.5rem;
+    margin-top: 30px;
+}
+/* Hero section */
+.margintop{
+
+    margin-top: 135px;
+}
+.mb-4align{
+    text-align: center !important;
+}
+.imgradius{
+    border-radius: 50%;
+    box-shadow: 4px 4px 3px 2px  rgb(165, 163, 163);
+    border: 2px solid rgb(98, 96, 96);
+}
+.intro-border{
+    /* border: 2px solid black; */
+    margin-left: 12px;
+
+    box-shadow:4px 4px 3px 1px  rgb(204, 201, 201), -4px 0px 3px 1px rgb(210, 208, 208);
+    
+}
+.marginright{
+    margin-right: 20px;
+}
