@@ -86,3 +86,16 @@ html,body
 .marginright{
     margin-right: 20px;
 }
+.footerdiv{
+
+    height: 1px;
+    background-color: rgb(143, 6, 127);
+    border:none;
+ 	width: 100vw;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 15px 20px -20px #333;
+  margin: -50px auto 10px; 
+    border: none;
+}
