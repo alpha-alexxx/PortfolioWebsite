@@ -49,7 +49,7 @@ html,body
 
 #home h1 {
     text-align: center;
-    color: rgb(129, 12, 149);
+    color: #fff;
     text-transform: capitalize;
     text-shadow: 3px 4px 4px grey;
 }
